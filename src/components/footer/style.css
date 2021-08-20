@@ -10,16 +10,20 @@ a :hover{
 }
 
 .footerContainer {
-    background: rgba(0, 0, 0, 0);
-    
+    /* background-color: #FFDEE9; */
+    /* background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%); */
+    margin-top: 2%;
+    height: 100%;
     width: 80%;
+    margin: "auto";
     text-align: center;
-    padding-top: 5%;
-    margin: auto;
+    margin-left: -10px;
+    margin-bottom: -20%;
+    /* align-items: center; */
    
 }
 .footerContainer h3{
-    /* text-align: center; */
+    margin-top: 5%;
     font-weight: bold;
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -30,11 +34,10 @@ a :hover{
     /* float: left; */
     list-style: none;
     color: red;
-
     font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.footerContainer ul li:hover{
+.footerLinks:hover{
     text-decoration: underline;
     color: red;
 }
@@ -42,5 +45,14 @@ a :hover{
     margin-top: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
-
+}
+.Copyright span{
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: #333;
+}
+.socialmedialinks:hover{
+    color: aqua;
+    cursor: pointer;
 }

@@ -1,5 +1,6 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {Feedback} from './components/feedback/feedback';
 import { About } from './components/about/about';
 import { Choose } from './components/choose/choose';
 import { Contact } from './components/contact/contact';
@@ -8,10 +9,11 @@ import { Footer } from './components/footer/footer';
 import { Header } from './components/header/header';
 function App() {
   return (
-    <div >
+    <div>
       <Header/>  
-      <About/>
+     <About/>
       <Choose/>
+      <Feedback/>
       <Faq/>
       <Contact/>
       <Footer/>

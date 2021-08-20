@@ -3,9 +3,13 @@ import './style.css'
 export const Choose = () => {
     return (
         <div className="choosediv">
-            <h3 className="choose">Why Choose us</h3>
             <br/><br/>
-            <section class="py-8 py-md-11 border-bottom">
+            <br/><br/>
+            
+           
+            <h3 className="topic">Why Choose us</h3>
+            <br/>
+            <section class="py-8 py-md-11">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-md-4" data-aos="fade-up">
@@ -16,7 +20,7 @@ export const Choose = () => {
                             </div>
 
 
-                            <h3>
+                            <h3 className="subtitle">
                                 Quick Turnaround
                             </h3>
 
@@ -33,7 +37,7 @@ export const Choose = () => {
                                 <img src="./assets/images/report.svg" alt="svg" widht="34" height="34px" />
                             </div>
 
-                            <h3>
+                            <h3 className="subtitle">
                                 Free Turnitin Report
                             </h3>
 
@@ -50,7 +54,7 @@ export const Choose = () => {
                                 <img src="./assets/images/support.svg" alt="svg" widht="34" height="34px" className="rediish" />
                             </div>
 
-                            <h3>
+                            <h3 className="subtitle">
                                 24/7 Support
                             </h3>
 
@@ -71,7 +75,7 @@ export const Choose = () => {
                             </div>
 
 
-                            <h3>
+                            <h3 className="subtitle">
                                 All sorts of paper writing assistance
                             </h3>
 
@@ -88,7 +92,7 @@ export const Choose = () => {
                                 <img src="./assets/images/revision.svg" alt="svg" widht="34" height="34px" />
                             </div>
 
-                            <h3>
+                            <h3 className="subtitle">
                             Unlimited Revisions
                             </h3>
 
@@ -105,7 +109,7 @@ export const Choose = () => {
                                 <img src="./assets/images/discount.svg" alt="svg" widht="34" height="34px" />
                             </div>
 
-                            <h3>
+                            <h3 className="subtitle">
                                 Flexible Discount
                             </h3>
 

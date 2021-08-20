@@ -18,7 +18,8 @@ export const Contact = () => {
     }
     return (
         <div className="contact">
-            <h2>Contact Us</h2>
+            <h3 className="topic">Contact Us</h3>
+            <br/>
 
             <form className="form-floating" onSubmit={sendEmail}>
 

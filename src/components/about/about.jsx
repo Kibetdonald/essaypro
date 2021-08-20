@@ -6,6 +6,7 @@ import { BsFillPeopleFill } from "react-icons/bs";
 import { BsFillPersonCheckFill } from "react-icons/bs";
 import { BsStopwatch } from "react-icons/bs";
 import CountUp from 'react-countup';
+import './responsive.css';
 export const About = () => {
     return (
         <div className="about">
@@ -17,17 +18,17 @@ export const About = () => {
                <p> Average Quality Score</p>
                 </Col>
                 <Col>
-               <h3>  <CountUp duration={5} end={100} />%,{" "}<BsFillPeopleFill/><br/>
+               <h3><BsFillPeopleFill/>  <CountUp duration={5} end={100} />%,{" "}<br/>
                 </h3>
                 <p>Orders delivered on time</p>
                 </Col>
                 <Col>
-               <h3> <CountUp duration={5} end={40} />{" "}<BsFillPersonCheckFill/><br/>
+               <h3><BsFillPersonCheckFill/> <CountUp duration={5} end={40} />{" "}<br/>
                 </h3>
                 <p>Clients</p>
                 </Col>
                 <Col>
-               <h3> 2 Minutes{" "}<BsStopwatch/><br/>
+               <h3> <BsStopwatch/>2 Minutes{" "}<br/>
               </h3>
               <p> Average response time</p>
                 </Col>

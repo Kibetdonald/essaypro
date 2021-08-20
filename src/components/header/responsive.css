@@ -1,0 +1,477 @@
+
+  /* Width: 1440px */
+@media screen and (max-width:1440px){
+ 
+    
+ }
+
+        /* width 1024*/
+  @media screen and (max-width:1280px){
+    
+
+  }
+          /* width 1024*/
+  @media screen and (max-width:1024px){
+  
+   
+  }
+   
+                /* width 992*/
+  @media screen and (max-width:992px){
+    .fixedTextRight{
+      margin-top: -25%;
+      font-size: 4px;
+    }
+    
+    .centerDiv{
+      width: 90%;
+      margin-top: 23%;
+      margin-left: 20%;
+      color: #fff;
+  }
+  .centerDiv h1{
+      color: #00D4FF;
+      font-size: 18px;
+  }
+  .aboutText{
+    font-size: 16px;   
+    color: #000;
+}
+  .svgImage{
+      margin-top: 28% !important;
+      width: 90%;
+    
+  } 
+                  
+      }
+                      /* width 720*/             
+  @media screen and (min-width:720px) and (max-width:979px){
+    .logo{
+      width: 60%;
+    }
+    .fixedTextRight{
+      margin-top: -14%;
+      font-size: 4px;
+    }
+   
+    .centerDiv{
+      width: 90%;
+      margin-top: 23%;
+      margin-left: 20%;
+      color: #fff;
+  }
+  .centerDiv h1{
+      color: #00D4FF;
+      font-size: 18px;
+  }
+  .aboutText{
+    font-size: 16px;   
+    color: #000;
+}
+  .svgImage{
+      margin-top: 28% !important;
+      width: 90%;
+    
+  } 
+  .hirebtn{
+    width: 15%;
+  }
+  .check{
+    font-size: 14px;
+  }
+  .fixedText{
+    position: fixed;
+    left: 1%;
+    margin-top: -25%;
+
+}
+  
+.hire{
+  position: absolute;
+  margin-top: 2%;
+ margin-left: 4%;
+ width: 100%;
+  font-size: 14px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.hire1{
+  position: absolute;
+  margin-top: 5%;
+ margin-left: 15%;
+  font-size: 14px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+   
+  }
+   /* max-width 576*/
+  @media screen and (min-width: 576px) and (max-width: 768px){
+    .logo{
+      width: 50%;
+    }
+    .fixedTextRight{
+      margin-top: -14%;
+      font-size: 4px;
+    }
+    .centerDiv{
+      width: 80%;
+      margin-top: 23%;
+      margin-left: 20%;
+      color: #fff;
+  }
+  .centerDiv h1{
+      color: #00D4FF;
+      font-size: 16px;
+  }
+  .aboutText{
+    font-size: 14px;   
+    color: #000;
+}
+  .svgImage{
+      margin-top: 28% !important;
+      width: 100%;
+    
+  } 
+  .fixedText{
+    position: fixed;
+    left: 1%;
+    margin-top: -25%;
+    font-size: 5px;
+
+}
+.profileText{
+  text-orientation:  sideways-right;
+  writing-mode: vertical-rl;
+  color: #000;
+  font-size: 13px;
+  margin-top: -90px;
+  letter-spacing: 2px;
+  font-style: normal;
+   font-family:Georgia, 'Times New Roman', Times, serif
+}
+  .hirebtn{
+    width: 15%;
+  }
+  .check{
+    font-size: 12px;
+  }
+  
+.hire{
+  position: absolute;
+  margin-top: 2%;
+ margin-left: 4%;
+ width: 100%;
+  font-size: 14px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.hire1{
+  position: absolute;
+  margin-top: 5%;
+ margin-left: 15%;
+  font-size: 14px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+      
+  }
+   /* max-width 576 and minimum of 480*/
+   @media screen and (min-width: 480px) and (max-width: 575px){
+    .logo{
+      width: 50%;
+    }
+    .centerDiv{
+      width: 80%;
+      margin-top: 23%;
+      margin-left: 20%;
+      color: #fff;
+  }
+  .centerDiv h1{
+      color: #00D4FF;
+      font-size: 16px;
+  }
+  .aboutText{
+    font-size: 14px;   
+    color: #000;
+}
+  .svgImage{
+      margin-top: 28% !important;
+      width: 100%;
+    
+  } 
+  .fixedText{
+    position: fixed;
+    left: 1%;
+    font-size: 8px;
+    margin-top: -35%;
+
+}
+.fixedTextRight{
+  margin-top: -30%;
+  font-size: 4px;
+}
+
+  .hirebtn{
+    width: 15%;
+  }
+  .check .span{
+    font-size: 7px;
+  }
+  .Copyright{
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    margin-left: 12%;
+  }
+  .cardSection{
+    flex-direction: row-reverse;
+  }
+      
+  }
+  
+
+      @media screen and (max-width: 480px)
+      {
+        .logo{
+          width: 50%;
+        }
+        .centerDiv{
+          width: 50%;
+          margin-top: 23%;
+          margin-left: 20%;
+          color: #fff;
+      }
+      .centerDiv h1{
+          color: #00D4FF;
+          font-size: 16px;
+      }
+      .svgImage{
+          margin-top: 48% ;
+          width: 50%;
+      }
+      .fixedText{
+        position: fixed;
+        left: 1%;
+        margin-top: -25%;
+    
+    }
+    .fixedTextRight{
+      margin-top: -34%;
+      font-size: 4px;
+    }
+    .check .span{
+      font-size: 7px;
+    }  
+    .Copyright{
+      margin-top: 30px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 12px;
+      margin-left: 12%;
+    }
+    .cardSection{
+      width: 80%;
+    }
+      
+    }
+
+
+    /* max-width 576 and minimum of 480*/
+   @media screen and (min-width: 320px) and (max-width: 479px){
+  
+    .cardSection{
+      width: 100%;
+  }
+    .centerDiv{
+      width: 120%;
+      margin-top: 23%;
+      margin-left: 20%;
+      color: #fff;
+  }
+  .centerDiv h1{
+      color: #00D4FF;
+      font-size: 16px;
+  }
+  .aboutText{
+    font-size: 14px;   
+    color: #000;
+}
+  .svgImage{
+      margin-top: 88%;
+      width: 0%;
+      margin-left: 10%;
+
+    
+  } 
+  .fixedText{
+    position: fixed;
+    left: 1%;
+    font-size: 8px;
+    margin-top: -35%;
+
+}
+.fixedTextRight{
+  margin-top: -34%;
+  font-size: 4px;
+}
+
+  .hirebtn{
+    width: 15%;
+  }
+  .check .span{
+    font-size: 7px;
+  }
+  .socialMedia{
+    width: 120%;
+  }
+  .Copyright{
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin-left: 12%;
+  }
+  }
+
+
+
+
+
+
+            /* width 320*/
+  @media screen and (min-width:240px) and (max-width:320px){
+    .logo{
+      width: 70%;
+    }
+       
+    .centerDiv{
+      width: 140% !important;
+      margin-top: 23%;
+      margin-left: 20%;
+      color: #fff;
+  }
+  .centerDiv h1{
+      font-size: 15px;
+  }
+  .svgImage{
+      margin-top: 100% ;
+      width: 0%;
+  }
+  .aboutText{
+    font-size: 13px;   
+    color: #000;
+    width: 100%;
+}
+.fixedText{
+  position: fixed;
+  left: 1%;
+  margin-top: -75%;
+  font-size: 4px;
+
+}
+.fixedTextRight{
+  margin-top: -75%;
+  font-size: 7px;
+
+}
+.hirebtn{
+  background-color:transparent;
+  color: #00D4FF;
+  border-radius: 4px;
+  border: 1px solid #00D4FF;
+  height: 35px;
+  width: 30%;
+  margin-top: 7px;
+  text-align: center;
+}
+.centersection{
+  width: 60%;
+
+}
+.check .span{
+  font-size: 5px;
+}
+.socialMedia{
+  width: 90%;
+}
+.Copyright{
+  margin-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  margin-left: 12%;
+}
+     
+}
+
+      
+            /* width 320*/
+  @media screen and (max-width:240px){
+    .logo{
+     
+      width: 70%;
+    }
+
+    .fixedText{
+      position: fixed;
+      left: 1%;
+      margin-top: -85%;
+  
+  }       
+    .centerDiv{
+      width: 140% !important;
+      margin-top: 23%;
+      margin-left: 20%;
+      color: #fff;
+  }
+  .centerDiv h1{
+      font-size: 15px;
+  }
+  .svgImage{
+      margin-top: 100% ;
+      width: 0%;
+  }
+  .aboutText{
+    font-size: 13px;   
+    color: #000;
+    width: 100%;
+}
+.fixedText{
+  position: fixed;
+  left: 1%;
+  margin-top: -25%;
+  font-size: 0px;
+
+}
+.fixedTextRight{
+  margin-top: -58%;
+  font-size: 0px;
+}
+.hirebtn{
+  background-color:transparent;
+  color: #00D4FF;
+  border-radius: 4px;
+  border: 1px solid #00D4FF;
+  height: 35px;
+  width: 30%;
+  margin-top: 7px;
+  text-align: center;
+}
+.centersection{
+  width: 60%;
+
+}
+.check .span{
+  font-size: 5px;
+}
+.socialMedia{
+  width: 90%;
+}
+.Copyright{
+  margin-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+}
+}
+
+          

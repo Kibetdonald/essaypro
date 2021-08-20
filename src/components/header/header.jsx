@@ -8,66 +8,68 @@ import Modal from 'react-bootstrap/Modal'
 import emailjs from 'emailjs-com';
 import { BsCheck } from "react-icons/bs";
 import { BsFillStarFill } from "react-icons/bs";
-import { BsFillPlayFill } from "react-icons/bs";
-import '../../responsive.css'
+
+import './responsive.css';
 
 export const Header = () => {
     const [modalShow, setModalShow] = React.useState(false);
-    const [modalShows, setModalShows] = React.useState(false);
+
     return (
-        <div>
+        <div className="header">
 
-
-            <Navbar>
+            <Navbar collapseOnSelect expand="lg" bg="transparent" variant="light">
                 <Container>
-                    <Navbar.Brand href="#home"> <img className="logo" src="./assets/images/logo.svg" alt="logo" /></Navbar.Brand>
-                    <Navbar.Toggle />
-                    <Navbar.Collapse className="justify-content-end">
-                        <Navbar.Text>
-                            <Nav className="me-auto">
-                                <Nav.Link data-nav-section="about" className="navLink" href="#home">About</Nav.Link>
-                                <Nav.Link className="navLink" href="#Services">Services</Nav.Link>
+                    <Navbar.Brand href="#home">
+                      
+                        {/* <img className="logo" src="./assets/images/untitled.png" alt="logo" /> */}
+                        <h3 className="logoText">Essaysbykirsten</h3>
+                    </Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="me-auto">
 
-                                <Nav.Link className="navLink" href="#Offers">Offers</Nav.Link>
-                                <Nav.Link className="navLink" href="#Contact">Contact</Nav.Link>
-                                <Nav.Link >
-                                    <button onClick={() => setModalShow(true)} style={{ marginTop: "-10%" }} type="submit" href="#" className="hirebtn">Hire Us</button>
-                                </Nav.Link>
-                            </Nav>
+                        </Nav>
+                        <Nav>
+                            <Nav.Link data-nav-section="about" className="navLink" href="#home">About</Nav.Link>
+                            <Nav.Link className="navLink" href="#Services">Services</Nav.Link>
 
-                        </Navbar.Text>
+                            <Nav.Link className="navLink" href="#Offers">Offers</Nav.Link>
+                            <Nav.Link className="navLink" href="#Contact">Contact</Nav.Link>
+                            <Nav.Link eventKey={2} href="#">
+                                <button onClick={() => setModalShow(true)} style={{ marginTop: "-10%" }} type="submit" href="#" className="hirebtn">Hire Us</button>
+                            </Nav.Link>
+                        </Nav>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
+
             <MyVerticallyCenteredModal
                 show={modalShow}
                 onHide={() => setModalShow(false)}
             />
-             <showVideoModal
-                show={modalShows}
-                onHide={() => setModalShows(false)}
-            />
-            <Row>
-                <Col >
+
+
+            <Row className="centersection">
+                <Col>
 
                     <div className="centerDiv">
                         <h1>
                             <TextLoop >
                                 <div>
-                                    <span>ESSAY WRITING (ANY TYPE) </span>
+                                    <span className="loopingText">ESSAY WRITING (ANY TYPE) </span>
                                 </div>
                                 <div>
-                                    <span>RESEARCH PAPER WRITING </span>
+                                    <span className="loopingText">RESEARCH PAPER WRITING </span>
                                 </div>
                                 <div>
-                                    <span>RESEARCH PROPOSAL WRITING</span>
+                                    <span className="loopingText">RESEARCH PROPOSAL WRITING</span>
                                 </div>
                                 <div>
-                                    <span>CASE STUDY WRITING</span>
+                                    <span className="loopingText">CASE STUDY WRITING</span>
                                 </div>
                             </TextLoop>{""}
 
-                            &nbsp; AT YOUR CONVENIENCE</h1>
+                            <br /> AT YOUR CONVENIENCE</h1>
 
 
 
@@ -76,11 +78,11 @@ export const Header = () => {
                             Use our essay writing service. Whatever type of academic paper you require to boost your grade and fulfill your deadlines, we can help.
 
                         </span>
-                        <br /> <br />
+                        <br />
                         <span className="check">
-                            <BsCheck />Flexible prices <br />
-                            <BsCheck />100% Original Essays<br />
-                            <BsCheck />On-time Delivery<br />
+                            <BsCheck /><span>Flexible prices</span> <br />
+                            <BsCheck /><span>100% Original Essays</span><br />
+                            <BsCheck /><span>On-time Delivery</span><br />
                             <BsFillStarFill className="rate" />
                             <BsFillStarFill className="rate" />
                             <BsFillStarFill className="rate" />
@@ -89,9 +91,10 @@ export const Header = () => {
                         </span>
                         <br />
 
-                        <button className="common-btn">Get in touch</button>
+                        <button onClick={() => setModalShow(true)} className="common-btn">Get in touch</button>
+                        <br />   <br />   <br />   <br />   <br />
 
-                        <button onClick={() => setModalShows(true)} className="common-btn2"><BsFillPlayFill style={{ fontSize: "28" }} />Watch Video</button>
+
                     </div>
 
                 </Col>
@@ -100,15 +103,31 @@ export const Header = () => {
                         <img src="./assets/images/hire.svg" width="80%" alt="svg" />
                     </div></Col>
             </Row>
+
             <div className="fixedText">
                 <Col>
-                    <Row> <SocialIcon network="google" style={{ height: 25, width: 25 }} /></Row>
+                    <Row>
+                        <a href="https://mail.google.com/mail/u/your@email.com/#inbox?compose=new&to=guruwriter5974@gmail" target="_blank" rel="noreferrer" ><SocialIcon network="google" style={{ height: 25, width: 25 }} /></a>
+                    </Row>
                     <br />
-                    <Row><SocialIcon network="twitter" style={{ height: 25, width: 25 }} /></Row>
+                    <Row>
+                        <a href="https://wa.me/message/44JRXDZBFGE7E1" target="_blank" rel="noreferrer"><SocialIcon network="whatsapp" style={{ height: 25, width: 25 }} /></a>
+                    </Row>
                     <br />
-                    <Row><SocialIcon network="facebook" style={{ height: 25, width: 25 }} /></Row>
+
+                    <Row>
+                        <a href="http://twitter.com/Essaysbykirsten" target="_blank" rel="noreferrer" ><SocialIcon network="twitter" style={{ height: 25, width: 25 }} /></a>
+                    </Row>
                     <br />
-                    <Row> <SocialIcon network="instagram" style={{ height: 25, width: 25 }} /></Row>
+
+                    <Row>
+                        <a href="https://vm.tiktok.com/ZSJt7fttw/" target="_blank" rel="noreferrer" ><SocialIcon network="tiktok" style={{ height: 25, width: 25 }} /></a>
+                    </Row>
+                    <br />
+                    <Row>
+                        <a href="https://instagram.com/Essaysbykirsten" target="_blank" rel="noreferrer" ><SocialIcon network="instagram" style={{ height: 25, width: 25 }} /></a>
+                    </Row>
+
 
 
                     <div className="vertical"></div>
@@ -117,7 +136,7 @@ export const Header = () => {
             <div className="fixedTextRight">
                 <Col>
 
-                    <Row><span className="profileText">hireus@gmail.com</span></Row>
+                    <Row><span className="profileText">guruwriter5974@gmail.com</span></Row>
                     <div className="vertical2"></div>
                 </Col>
             </div>

@@ -6,16 +6,18 @@
     word-spacing: 2px;
     padding: 5%;
     width: 100%;
-    margin-top: 8%;
+    margin: auto;
     padding-left: 10%;
-    padding-right: 10%;
-    margin-left: 3%;
+    padding-right: 10%; 
+    float: left;
+
 }
 .about h3{
     font-size: 24px;
+    color: #00D4FF;
 
 }
 .about p{
     font-size: 18px;
-    color: #00D4FF;
+    color: #333 !important;
 }

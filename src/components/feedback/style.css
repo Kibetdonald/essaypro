@@ -1,0 +1,30 @@
+.feedbackdiv{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.cardSection{
+    width: 33.3%;
+}
+.title{
+    margin-top: 2%;
+    text-align: center;
+}
+.avatar{
+    width: 15%;
+}
+.rate{
+    left: 15px;
+}
+.customerId{
+    font-size: 14px;
+}
+.cardSection{
+    width: 100%;
+    background: rgba( 255, 255, 255, 0.10 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }

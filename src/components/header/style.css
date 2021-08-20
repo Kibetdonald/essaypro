@@ -1,7 +1,18 @@
 body{
     margin: 0px;
-    width: 95%;
+    width: 100%;
+    padding: 0;
+
 }
+.header{
+    height: 200%;
+    width: 100%;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    
+    
+}
+
 a{
     color: #000 !important;
 }
@@ -13,32 +24,43 @@ a{
     color: #00D4FF !important;
     
 }
+
+.logoText{
+    font-size: 32px;
+    float: right;
+    font-family: sans-serif;
+    /* font-style: italic; */
+    margin-top: 10%;
+    color: #00D4FF;
+    line-height: 2px;
+
+
+}
 .logo{
-    width: 70%;
+    width: 80%;
+}
+.centersection{
+    width: 100%;
 }
 .centerDiv{
     width: 70%;
     margin-top: 23%;
     margin-left: 20%;
     color: #fff;
-    @media (max-width: 576px) {
-        text-align: center;
-        color: #000;
-        /* width: 150% */
-      }
+  
 }
 .centerDiv h1{
     color: #00D4FF;
     font-size: 28px;
 }
+
 .svgImage{
     margin-top: 18%;
   
 }
 .aboutText{
     font-size: 18px;   
-    /* font-family:Arial, Helvetica, sans-serif; */
-        color: #000;
+    color: #000;
 }
 .check{
     color: #000;
@@ -59,32 +81,7 @@ a{
     font-size: 16px;
     margin-top: 15px;
 }
-.common-btn2{
-    background-color: transparent;
-    color: #00D4FF;
-    border: 1px solid #00D4FF;
-    border-radius: 4px;
-    height: 35px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-top: 15px;
-    margin-left: 1%;
-}
-.common-btn2:hover{
-    background-color: #00D4FF;
-    color: #fff;
-    border-radius: 4px;
-    height: 35px;
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-top: 15px;
-    margin-left: 1%;
-}
+
 
 .hirebtn{
     background-color:transparent;
@@ -109,10 +106,8 @@ a{
 .vertical {
     border-left: 2px solid grey;
     height: 200px;
-    /* position:absolute; */
-    left: 20%;
     margin-top: 10px;
-    /* margin-left: 10px; */
+    margin-left: 10px;
 }
 .vertical2 {
     border-left: 2px solid grey;
@@ -126,31 +121,32 @@ a{
     color: #fff;
     position: fixed;
     right: 10px;
-    margin-top: -15%;
+    margin-top: -25%;
 
 }
 .fixedText{
     position: fixed;
-    left: 2%;
-    margin-top: -15%;
-    
- 
+    left: 1%;
+    margin-top: -25%;
+    font-size: 10px;
 
 }
 .profileText{
     text-orientation:  sideways-right;;
     writing-mode: vertical-rl;
-    color: #00D4FF;
-    font-size: 17px;
+    color: #000;
+    font-size: 15px;
     margin-top: -10px;
     letter-spacing: 2px;
     font-style: normal;
-    font-family: 'Times New Roman', Times, serif
+     font-family:Georgia, 'Times New Roman', Times, serif
 }
+
 .hire{
     position: absolute;
     margin-top: 2%;
    margin-left: 4%;
+   width: 100%;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
 
@@ -163,3 +159,4 @@ a{
     font-family: 'Times New Roman', Times, serif;
 
 }
+
